@@ -1,0 +1,15 @@
+.about {
+    background-color: #398eaf; /* Light gray background */
+    padding: 50px; /* Padding around the content */
+    text-align: center; /* Center-align the content */
+}
+
+.about h2 {
+    font-size: 2em; /* Large font size for the heading */
+    margin-bottom: 20px; /* Bottom margin for spacing */
+}
+
+.about p {
+    font-size: 1.1em; /* Medium font size for paragraphs */
+    line-height: 1.8; /* Line height for better readability */
+}

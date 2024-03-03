@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+    background-image: url('c5a1be23-64d7-420d-8aa0-8f6b9fd0b305.jpeg');
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 1;
+    padding: 0;
+    background-color: #fa061280; /* Light gray background */
+}
+
+header {
+    background-color: #e7e7e7; /* Green header background */
+    padding: 20px;
+    display: block;
+    justify-content: baseline;
+    padding: 0cqb;
+    align-items:inherit;
+}
+
+nav ul {
+    list-style-type:armenian;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #a01414; /* White link text */
+}
+
+main {
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2em
+    
+}
+
+.hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color:#bed829dc; /* Dark gray heading text */
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: hsl(14, 100%, 57%); /* Orange button background */
+    color: #ffffff; /* White button text */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #d84315; /* Darker orange on hover */
+}
+
+/* Features Section */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.feature {
+    background-color: rgba(255, 255, 255, 0.8); /* White feature with transparency */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(233, 230, 230, 0.678);
+  
+}
+
+.feature h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #c5c7ca; /* Dark gray heading text */
+}
